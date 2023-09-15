@@ -1,0 +1,41 @@
+/*
+These style references are arranged in alphabetical order.
+If you cannot find a specific style guide here, it was likely a custom rule used once on the website via inline style instructions.
+*/
+
+body {
+    background-color: rgb(159, 253, 253);
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+  }
+
+fieldset {
+    background-color: white;
+    color: blueviolet;
+}
+
+figcaption {
+    color: rgb(100, 0, 154);
+}
+
+@font-face {
+    font-family: funFont;
+    src: url('Mooli-Regular.ttf');
+  }
+  
+h1 {
+    color: rgb(0, 83, 92);
+    margin-left: 20px;
+    font-family: funFont;
+}
+
+img {
+    padding: 10px,10px,10px
+  }
+
+p {
+    color: rgb(162, 2, 109);
+}
